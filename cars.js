@@ -1,7 +1,7 @@
 const menuOptions = [
   { name: 'Porsche GT3', price: 800000, jdm: false, sport: true, src: './img/porsche.jpg' },
   { name: 'Subaru Impreza', price: 370000, jdm: false, sport: false, src: './img/impreza.jpg' },
-  { name: 'Dodge Charger', price: 640000, jdm: true, sport: false, src: './img/charger.jpg' },
+  { name: 'Dodge Charger', price: 640000, jdm: true, sport: false, src: './img/dodge-charger.jpg' },
   { name: 'Nissan Silvia', price: 290000, jdm: true, sport: false, src: './img/silvia.jpg' },
   { name: 'Mazda RX7', price: 330000, jdm: true, sport: false, src: './img/rx7.jpg' },
   { name: 'Eclipse GST', price: 220000, jdm: true, sport: false, src: './img/eclipse.jpg' },
