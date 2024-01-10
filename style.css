@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    background: black;
+}
+
+.img-fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+    opacity: 10%;
+}
+
+.container-buttons {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #2339b477;
+}
+
+.logo-img {
+    width: 150px;
+    height: 80px;
+    display: flex;
+    position: absolute;
+    left: 30px;
+    top: 5px;
+}
+
+ul {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    border: 1px solid #2339b477;
+}
+
+li {
+    padding: 5px;
+    border: 2px solid #f15e0964;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 20px;
+    width: 150px;
+}
+
+img {
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #f15f09;
+}
+
+.price {
+    color: #1532d2f0;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    background-color: #f15f09;
+    color: rgb(9, 9, 9);
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    width: 110px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+
+/*RESPONSIVO*/
+
+@media (max-width: 1160px) {
+    .container-buttons {
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        padding: 10px;
+        border: 1px solid #2339b477;
+    }
+
+    .logo-img {
+        width: 80px;
+        height: 60px;
+        display: flex;
+        position: absolute;
+        left: 50px;
+        top: 5px;
+    }
+
+    ul {
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        border: 1px solid #2339b477;
+    }
+}
+
+/*RESPONSIVO MOBILE*/
+
+
+@media (max-width: 768px) {
+    .container-buttons {
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: safe;
+        gap: 5px;
+        margin: auto;
+        padding: 10px;
+        border: 1px solid #2339b477;
+    }
+
+    .logo-img {
+       display: none;
+    }
+
+    ul {
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 200px 200px ;
+        border: 1px solid #2339b4f7;
+    }
+}
